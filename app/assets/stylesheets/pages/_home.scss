@@ -1,4 +1,59 @@
-/* -------------------------------------
- * CSS code specific to home page
- * (margin/padding adjustments)
- * ------------------------------------- */
+.card {
+  height: 175px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  color: white;
+  position: relative;
+}
+.card-user {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.card-category {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.card-description {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  h2 {
+    font-size: 24px;
+    color: #fafafa
+  }
+  p {
+    font-size: 13px;
+  }
+  a {
+    color: #fafafa
+  }
+}
+
+.card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  z-index:2;
+  background: black;
+  opacity: 0;
+  :hover{
+    opacity: 0.1;
+  }
+}
+
+.navbar-wagon-button {
+    margin-left: 10px;
+    padding: 0 20px;
+    border-radius: 20em;
+    line-height: 40px;
+    background-color: #FF771B;
+    color: white;
+    font-size: 14px;
+    border: 2px solid #FF771B;
+}
